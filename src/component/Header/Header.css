@@ -1,0 +1,35 @@
+.header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.search_bar{
+    position: relative;
+    margin-left: 33px;
+}
+
+.search_bar>svg{
+    position: absolute;
+    top: 11px;
+    left: 14px;
+    width: 13px;
+}
+
+.search_input{
+    width: 350px;
+    height: 35px;
+    padding-left: 40px;
+    font-size: 15px;
+    border: 1px solid #E3EDED;
+    color: #637381;
+}
+.header_widjet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    width: 63px;
+}
