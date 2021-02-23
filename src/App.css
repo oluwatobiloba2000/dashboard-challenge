@@ -130,7 +130,7 @@ font-size: 12px;
   display: flex;
   width: 100%;
   margin-top: 9px;
-  height: 63px;
+  min-height: 63px;
   border-bottom: 1px solid  #E3EDED;
 }
 
