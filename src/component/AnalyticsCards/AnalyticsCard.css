@@ -1,0 +1,84 @@
+.grid_card_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.analytic_card{
+    width: 250px;
+    border-radius: 3px;
+    padding: 15px 10px 10px 25px;
+    height: 140px;
+}
+
+.analytic_card:not(:last-child){
+    margin-right: 15px;
+}
+
+.analytic_card .card_title{
+    font-size: 15px;
+    color: #110B56;
+}
+
+.analytic_card .stats_num{
+    font-size: 12px;
+}
+
+.color-green{
+    color: #50B83C;
+}
+
+.color-red{
+    color: #F52D56;
+}
+
+
+.registered_companies_card{
+    background-color: #FDECE2;
+}
+
+.new_application_card{
+    background-color: #EAEFFD;
+}
+
+.project_done_card{
+    background-color: #FFF3C5;
+}
+
+.new_project_card{
+    background-color: #E7F5FE;
+}
+
+.period_card{
+    color: #919EAB;
+    font-size: 12px;
+}
+
+.stats{
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+@media all and (max-width: 860px){
+    .grid_card_container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .analytic_card {
+        width: 300px;
+        margin: 3px !important;
+    }
+
+    .analytic_card:not(:last-child) {
+        margin: 3px !important;
+    }
+}
+
+@media all and (max-width: 680px){
+    .analytic_card{
+        width: 100%;
+    }
+
+}
