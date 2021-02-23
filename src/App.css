@@ -1,0 +1,214 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+.App{
+  display: flex;
+}
+
+.layout{
+  width: 100%;
+  margin-left: 215px;
+}
+
+.content{
+  padding: 0 20px 0px 32px;
+  color: #110B56;
+}
+
+.content_title{
+  margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.bottom_section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer_satisfaction_card{
+  background-color: #E7F5FE;
+  margin-top: 40px;
+  margin-left: 0px;
+  width: 380px;
+  padding: 16px;
+}
+
+.customer_satisfaction_card>p{
+color: #79869F;
+font-size: 12px;
+}
+
+.customer_card_title{
+  color: #2979F2;
+  font-size: 20px;
+}
+
+.customer_response_container{
+  margin-top: 15px;
+}
+
+.customer_response_container>p{
+  font-size: 12px;
+  color: #2979F2;
+}
+
+.customer_response_container>h4{
+  color: #3B4859;
+  font-size: 20px;
+}
+
+.rating_container{
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.rating_container>span{
+  margin-right: 15px;
+}
+
+.rating_container>span, .rating>span{
+  color: #79869F;
+  font-size: 12px;
+}
+
+.rating>svg{
+  margin: 0 5px 0 0;
+}
+
+.percentage_result{
+  margin-left: 5px;
+}
+
+.dashboard_message_container{
+  margin-top: 22px;
+  margin-left: 0px;
+  width: 380px;
+  padding: 16px;
+  border: 1px solid #E3EDED;
+  height: 50.3%;
+}
+
+.message_action{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.message_header{
+  color: #2979F2;
+  font-size: 20px;
+}
+
+.btn-primary{
+  background-color: #2979F2;
+  width: 130px;
+  height: 35px;
+  color: white;
+  font-size: 12px;
+}
+
+.message_body{
+  margin-top: 20px;
+}
+
+.message{
+  display: flex;
+  width: 100%;
+  margin-top: 9px;
+  height: 63px;
+  border-bottom: 1px solid  #E3EDED;
+}
+
+.company_name{
+  font-weight: bold;
+  color: #2979F2;
+  font-size: 12px;
+}
+
+.company_pics>img{
+  width: 28.85px;
+  height: 28.85px;
+}
+
+.message_content{
+  margin-left: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.message_text, .message_time{
+  color: #637381;
+}
+
+.message_time{
+  font-size: 12px;
+}
+
+.message_handlebar{
+  margin-left: 62px;
+}
+
+@media all and (max-width: 1125px){
+  .layout{
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: 1117px){
+  .bottom_section{
+    flex-direction: column-reverse;
+  }
+  .message_and_customer_container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .customer_satisfaction_card{
+    margin-top: 22px;
+  }
+}
+
+@media all and (max-width: 860px){
+  .message_and_customer_container{
+    flex-direction: column;
+  }
+
+  .customer_satisfaction_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .message{
+    position: relative;
+  }
+
+  .dashboard_message_container{
+    width: 100%;
+  }
+  .message_handlebar{
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media all and (max-width: 500px){
+  .table_widjet{
+    flex-direction: column;
+  }
+}
